@@ -1,0 +1,149 @@
+12-02-2024 01:29:30.935 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:30.935 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:30.935 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:30.935 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:30.935 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:30.936 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:30.936 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful registration with valid credentials
+12-02-2024 01:29:30.936 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful login with valid credentials
+12-02-2024 01:29:30.936 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Deleting a user should return the correct response code
+12-02-2024 01:29:30.936 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: User details should match the expected response from the API
+12-02-2024 01:29:30.942 [pool-3-thread-2] INFO  com.inar.reqres.user.management.utils.ConfigManager - Application properties loaded successfully.
+12-02-2024 01:29:31.192 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 2
+12-02-2024 01:29:31.232 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.UserLoginSteps - Login credentials set for user: eve.holt@reqres.in
+12-02-2024 01:29:31.232 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.UserLoginSteps - Registration credentials set for user: eve.holt@reqres.in
+12-02-2024 01:29:31.779 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Deleting a user should return the correct response code
+12-02-2024 01:29:31.779 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:31.784 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:31.784 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Deleting a user should return the correct response code
+12-02-2024 01:29:31.922 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Deleting a user should return the correct response code
+12-02-2024 01:29:31.922 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:31.925 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:31.925 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Deleting a user should return the correct response code
+12-02-2024 01:29:32.070 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Deleting a user should return the correct response code
+12-02-2024 01:29:32.070 [pool-3-thread-1] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.119 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful login with valid credentials
+12-02-2024 01:29:32.119 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.121 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.121 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful registration with valid credentials
+12-02-2024 01:29:32.121 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful login with invalid credentials
+12-02-2024 01:29:32.121 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.123 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.UserLoginSteps - Login credentials set for user: sydney@fife
+12-02-2024 01:29:32.124 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.124 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Unsuccessful registration with invalid credentials
+12-02-2024 01:29:32.125 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.UserLoginSteps - Registration credentials set for user: sydney@fife
+12-02-2024 01:29:32.275 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful login with invalid credentials
+12-02-2024 01:29:32.276 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.277 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Unsuccessful registration with invalid credentials
+12-02-2024 01:29:32.277 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.280 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.280 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful login with invalid credentials
+12-02-2024 01:29:32.280 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.280 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Unsuccessful registration with invalid credentials
+12-02-2024 01:29:32.280 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.UserLoginSteps - Login credentials set for user: invalid.user@reqres.in
+12-02-2024 01:29:32.281 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.UserLoginSteps - Registration credentials set for user: John@gmail.com
+12-02-2024 01:29:32.380 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:32.380 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.383 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.383 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:32.383 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1023
+12-02-2024 01:29:32.418 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: User details should match the expected response from the API
+12-02-2024 01:29:32.418 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.420 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.420 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: User details should match the expected response from the API as List
+12-02-2024 01:29:32.448 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful login with invalid credentials
+12-02-2024 01:29:32.448 [pool-3-thread-3] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.453 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Unsuccessful registration with invalid credentials
+12-02-2024 01:29:32.454 [pool-3-thread-4] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.531 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:32.531 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.533 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.533 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:32.533 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1024
+12-02-2024 01:29:32.568 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: User details should match the expected response from the API as List
+12-02-2024 01:29:32.568 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.571 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.571 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: User details should match the expected response from the API with user objects
+12-02-2024 01:29:32.681 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:32.681 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.684 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.684 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:32.684 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1025
+12-02-2024 01:29:32.758 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: User details should match the expected response from the API with user objects
+12-02-2024 01:29:32.758 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.760 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.760 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: User details should match the expected response from the API
+12-02-2024 01:29:32.824 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:32.824 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.826 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.826 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:32.826 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1026
+12-02-2024 01:29:32.963 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:32.963 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:32.965 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:32.965 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:32.965 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1027
+12-02-2024 01:29:32.968 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: User details should match the expected response from the API
+12-02-2024 01:29:32.968 [pool-3-thread-2] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:33.100 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:33.100 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:33.104 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:33.104 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:33.105 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1028
+12-02-2024 01:29:33.248 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:33.248 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:33.250 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:33.250 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:33.250 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1029
+12-02-2024 01:29:33.396 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:33.396 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:33.397 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:33.397 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:33.398 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1030
+12-02-2024 01:29:33.550 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:33.550 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:33.551 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:33.551 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:33.551 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1031
+12-02-2024 01:29:33.687 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:33.687 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:33.688 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:33.688 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:33.689 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1032
+12-02-2024 01:29:33.840 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:33.841 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:33.842 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:33.842 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:33.842 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1033
+12-02-2024 01:29:33.991 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:33.991 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:33.992 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:33.992 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:33.992 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1034
+12-02-2024 01:29:34.127 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:34.127 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:34.129 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:34.129 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:34.129 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1035
+12-02-2024 01:29:34.261 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:34.261 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:34.263 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:34.263 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:34.263 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1036
+12-02-2024 01:29:34.402 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:34.402 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:34.403 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:34.403 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:34.404 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1037
+12-02-2024 01:29:34.545 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:34.545 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:34.546 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:34.546 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:34.546 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1038
+12-02-2024 01:29:34.700 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:34.700 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::
+12-02-2024 01:29:34.701 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::: TEST INFORMARION :::::::::::::::
+12-02-2024 01:29:34.701 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Executing scenario: Successful update of user details
+12-02-2024 01:29:34.701 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.UserUpdateSteps - Setting up update details for user with ID: 1039
+12-02-2024 01:29:34.847 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - Finished scenario: Successful update of user details
+12-02-2024 01:29:34.847 [pool-3-thread-5] INFO  com.inar.usermanagement.stepdefinition.hook.Hooks - ::::::::::::::::::::::::::::::::::::::::::::::::

@@ -3,7 +3,6 @@ package com.inar.usermanagement.stepdefinition;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.inar.reqres.user.management.pojo.LoginCredentials;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.inar.usermanagement.context.TestContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
@@ -21,15 +20,7 @@ public class UserLoginSteps extends BaseSteps {
 
 	private ObjectMapper objectMapper = new ObjectMapper();
 
-	private Response response;
-
 	private RequestSpecification request;
-
-	private final TestContext testContext;
-
-	public UserLoginSteps(TestContext context) {
-		this.testContext = context;
-	}
 
 	@Given("I have login credentials {string} and {string}")
 	public void iHaveLoginCredentialsAnd(String email, String password) {
@@ -48,12 +39,10 @@ public class UserLoginSteps extends BaseSteps {
 	@When("I send a POST request to the login endpoint")
 	public void iSendAPOSTRequestToTheLoginEndpoint() {
 		response = request.when().post(loginEndpoint);
-		testContext.setResponse(response);
 	}
 
 	@Then("I receive a token in the response")
 	public void iReceiveATokenInTheResponse() {
-		Response response = testContext.getResponse();
 		String token = response.jsonPath().getString("token");
 		Assertions.assertThat(token).isNotNull();
 		Assertions.assertThat(token).isNotEmpty();

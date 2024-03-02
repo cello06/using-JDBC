@@ -40,15 +40,7 @@ To execute the tests with the Cucumber Runner, you can either run the `TestRunne
 
 From the IDE:
 - Navigate to `src/test/java/com/inar/reqres/usermanagement/runner/TestRunner.java`.
-- Right-click on the file and run it as a JUnit test.
-
-Using Maven:
-- Open a terminal window.
-- Navigate to the project's root directory.
-- Run the following command:
-
-```bash
-mvn test -Dtest=TestRunner
+- And run it.
 
 ### Project Structure
 
@@ -82,13 +74,7 @@ This project is licensed under the MIT License - see the `LICENSE.md` file for d
 
 ## Authors
 
-- **Hamza Cetin** - *Initial work* - [HamzaCetin](https://github.com/HamzaCetin)
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- **Hamza Cetin** - *Initial work* - [HamzaCetin](https://github.com/hamzaalictn)
 
 
 

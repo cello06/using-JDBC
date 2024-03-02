@@ -1,6 +1,6 @@
 @smoke @regression @user_registration
 Feature: User registration
-
+@test
   Scenario Outline: Successful registration with valid credentials
     Given I have registration credentials "<email>" and "<password>"
     When I send a POST request to the registration endpoint

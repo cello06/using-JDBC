@@ -2,12 +2,14 @@ package com.inar.usermanagement.stepdefinition;
 
 import com.inar.reqres.user.management.utils.ConfigManager;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 
 import static io.restassured.RestAssured.baseURI;
 
 public abstract class BaseSteps {
 
-	protected Response response; // This needs to be accessible to subclasses
+	static protected Response response;
+	static protected RequestSpecification request;
 
 	protected String registerUserEndpoint;
 

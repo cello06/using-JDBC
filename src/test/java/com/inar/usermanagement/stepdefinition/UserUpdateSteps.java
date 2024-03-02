@@ -1,42 +1,24 @@
 package com.inar.usermanagement.stepdefinition;
 
 import com.inar.reqres.user.management.pojo.UserUpdate;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.inar.usermanagement.context.TestContext;
-import io.cucumber.java.DataTableType;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.assertj.core.api.Assertions;
 import org.assertj.core.api.SoftAssertions;
 
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.time.temporal.ChronoUnit;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
 public class UserUpdateSteps extends BaseSteps {
 
 	private static final Logger logger = LogManager.getLogger(UserUpdateSteps.class);
-
-	private final TestContext testContext;
-
-	private RequestSpecification request;
-
-	private Response response;
-
-	private ObjectMapper objectMapper = new ObjectMapper();
-
-	public UserUpdateSteps(TestContext context) {
-		this.testContext = context;
-	}
 
 	@Given("I have the user update details for user with id {string}")
 	public void iHaveTheUserUpdateDetailsForUserWithId(String userId) {
@@ -48,7 +30,6 @@ public class UserUpdateSteps extends BaseSteps {
 		request = given().contentType("application/json");
 		UserUpdate userUpdate = new UserUpdate(name, job);
 		response = request.body(userUpdate).patch(updateUsersEndpoint + "/" + userId);
-		testContext.setResponse(response);
 	}
 
 	@And("the response should contain the user details: name {string} and job {string}")

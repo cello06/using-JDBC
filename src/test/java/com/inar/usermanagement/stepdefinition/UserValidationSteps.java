@@ -1,12 +1,10 @@
 package com.inar.usermanagement.stepdefinition;
 
 import com.inar.reqres.user.management.pojo.User;
-import com.inar.usermanagement.context.TestContext;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.DataTableType;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
-import io.restassured.response.Response;
 import org.assertj.core.api.SoftAssertions;
 
 import java.util.List;
@@ -16,18 +14,9 @@ import static io.restassured.RestAssured.given;
 
 public class UserValidationSteps extends BaseSteps {
 
-	private final TestContext testContext;
-
-	Response response;
-
-	public UserValidationSteps(TestContext context) {
-		this.testContext = context;
-	}
-
 	@When("I make a request to list users with page number {int}")
 	public void iMakeARequestToWithPageNumber(int pageNumber) {
 		response = given().queryParam("page", pageNumber).when().get(listUsersEndpoint);
-		testContext.setResponse(response);
 	}
 
 	@And("the response should include the following user details:")

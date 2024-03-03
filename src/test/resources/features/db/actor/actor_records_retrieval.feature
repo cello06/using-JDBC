@@ -1,49 +1,14 @@
-@smoke @regression @actor
+@regression  @db @actor
 Feature: Actor Records Retrieval
 
   As a user of the DVD rental database
   I want to be able to retrieve actor records
   So that I can view the list of actors
 
+  @smoke
   Scenario: Retrieve all actor records
     Given the database is accessible
-    When I request actor record by actor_id 3
-    Then I should receive a list of all actors
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  Scenario: Retrieve all actor records 2
-    Given the database is accessible
-    When I request all actor records [2]
+    When I request all actor records
     Then I should receive a list of all actors
 
   Scenario Outline: Retrieve actor record by ID

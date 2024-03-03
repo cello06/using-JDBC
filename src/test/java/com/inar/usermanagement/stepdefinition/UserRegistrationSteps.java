@@ -16,7 +16,7 @@ import static io.restassured.RestAssured.given;
 
 public class UserRegistrationSteps extends BaseSteps {
 
-	private static final Logger logger = LogManager.getLogger(UserLoginSteps.class);
+	private static final Logger logger = LogManager.getLogger(UserRegistrationSteps.class);
 
 	private final ObjectMapper objectMapper = new ObjectMapper();
 

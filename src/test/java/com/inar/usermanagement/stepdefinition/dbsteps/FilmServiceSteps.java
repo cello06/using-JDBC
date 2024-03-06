@@ -35,7 +35,7 @@ public class FilmServiceSteps {
     @Then("the user should receive a list containing all films in the database")
     public void theUserShouldReceiveAListContainingAllFilmsInTheDatabase() {
         Assertions.assertThat(filmList).as("Film List could not received from database!").isNotNull().isNotEmpty();
-        LOGGER.debug("the user should receive a list containing all films in the database");
+        LOGGER.debug("the user received a list containing all films in the database");
     }
 
     @When("the user request a film by using {string}")

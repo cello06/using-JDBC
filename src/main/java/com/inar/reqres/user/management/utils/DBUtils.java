@@ -17,7 +17,7 @@ public class DBUtils {
 
 	private static final String USER = ConfigManager.getProperty("db_username");
 
-	private static final String PASSWORD = ConfigManager.getProperty("db_password");
+	private static final String PASSWORD = System.getenv("db_password");
 
 	static {
 		try {
@@ -31,6 +31,7 @@ public class DBUtils {
 
 	public static Connection getConnection() throws SQLException {
 		try {
+			System.out.println(PASSWORD);
 			return DriverManager.getConnection(URL, USER, PASSWORD);
 		}
 		catch (SQLException e) {

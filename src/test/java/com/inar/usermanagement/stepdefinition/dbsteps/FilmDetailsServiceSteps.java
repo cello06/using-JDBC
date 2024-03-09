@@ -11,6 +11,7 @@ import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.Assertions;
 import org.assertj.core.api.SoftAssertions;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class FilmDetailsServiceSteps {
@@ -32,6 +33,7 @@ public class FilmDetailsServiceSteps {
     @When("the user sends request to database to get list of all film details")
     public void theUserSendsRequestToDatabaseToGetListOfAllFilmDetails() {
         filmDetailsList = filmDetailsService.getListOfAllFilmDetails();
+        System.out.println("FILM LIST SIZE  " + filmDetailsList.size());
         LOGGER.info("the user sends request to database to get list of all film details");
     }
 
@@ -40,17 +42,14 @@ public class FilmDetailsServiceSteps {
         Assertions.assertThat(filmDetailsList).as("Film details list could not be received from database!").isNotNull().isNotEmpty();
         LOGGER.debug("the user received a list containing all film details in the database");
     }
-    @When("the user sends request to database to get details of a film by {int}")
-    public void theUserSendsRequestToDatabaseToGetDetailsOfAFilmBy(int filmId) {
-        filmDetails = filmDetailsService.getAFilmDetailByFilmId(filmId);
-        LOGGER.info("the user sends request to database to get details of a film by film_id --> " + filmId);
-    }
+
 
     @When("the user sends request to database to get details of a film by {string}")
     public void theUserSendsRequestToDatabaseToGetDetailsOfAFilmBy(String filmId) {
         filmDetails = filmDetailsService.getAFilmDetailByFilmId(Integer.parseInt(filmId));
         LOGGER.info("the user sends request to database to get details of a film by film_id --> " + filmId);
     }
+
     @Then("the user should receive details of the film")
     public void theUserShouldReceiveDetailsOfTheFilmWith() {
         Assertions.assertThat(filmDetails).as("Film details could not be received from database!").isNotNull();
@@ -58,34 +57,21 @@ public class FilmDetailsServiceSteps {
     }
 
 
-    @Then("the user should receive information of film details as {string},{string},{string},{string},{string},{string},{string}")
+    @Then("the user should receive information of film details as,{string},{string},{string},{string},{string}")
     public void theUserShouldReceiveInformationOfFilmDetailsAs
-            (String filmTitle,
-             String description,
-             String releaseYear,
-             String categoryName,
-             String actorFirstName,
-             String actorLastName,
-             String actorId) {
-            Assertions.assertThat(filmDetails).as("Film details could not be received from database!").isNotNull();
-
+            (String filmTitle, String description, String releaseYear, String category, String actorList) {
+        Assertions.assertThat(filmDetails).as("Film details could not be received from database!").isNotNull();
         SoftAssertions softAssertions = new SoftAssertions();
         softAssertions.assertThat(filmDetails.getFilmTitle()).isEqualTo(filmTitle);
         softAssertions.assertThat(filmDetails.getDescription()).isEqualTo(description);
         softAssertions.assertThat(filmDetails.getReleaseYear()).isEqualTo(Integer.parseInt(releaseYear));
-        softAssertions.assertThat(filmDetails.getCategoryName()).isEqualTo(categoryName);
-        softAssertions.assertThat(filmDetails.getActorFirstName()).isEqualTo(actorFirstName);
-        softAssertions.assertThat(filmDetails.getActorLastName()).isEqualTo(actorLastName);
-        softAssertions.assertThat(filmDetails.getActorId()).isEqualTo(Integer.parseInt(actorId));
-
-
+        softAssertions.assertThat(filmDetails.getCategory()).isEqualTo(category);
+        List<String> actors = Arrays.stream(filmDetails.getActorList().split(",")).toList();
+        for(String actor : actors){
+            softAssertions.assertThat(actorList.contains(actor)).isTrue();
+        }
         softAssertions.assertAll();
 
         LOGGER.debug("the user received correct information of film details");
-
     }
-
-
-
-
 }

@@ -9,6 +9,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class FilmDetails {
+    private int filmId;
 
     private String filmTitle;
 
@@ -16,11 +17,8 @@ public class FilmDetails {
 
     private int releaseYear;
 
-    private String categoryName;
+    private String category;
 
-    private String actorFirstName;
+    private String actorList;
 
-    private String actorLastName;
-
-    private int actorId;
 }

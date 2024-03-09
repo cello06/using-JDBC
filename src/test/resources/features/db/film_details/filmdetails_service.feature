@@ -9,16 +9,16 @@ Feature: Film Details Management Service
 
   Scenario: Get details of a film by film id
     Given film details service is running
-    When the user sends request to database to get details of a film by 970
+    When the user sends request to database to get details of a film by "970"
     Then the user should receive details of the film
 
 
   Scenario Outline: Get information of film details from database by using film id
     Given film details service is running
     When the user sends request to database to get details of a film by "<film_id>"
-    Then the user should receive information of film details as "<filmTitle>","<description>","<releaseYear>","<categoryName>","<actorFirstName>","<actorLastName>","<actorId>"
+    Then the user should receive information of film details as,"<film_title>","<description>","<release_year>","<category>","<actor_list>"
     Examples:
-      | film_id | filmTitle        | description                                                                                                         | releaseYear | categoryName | actorFirstName | actorLastName | actorId |
-      | 1       | Academy Dinosaur | A Epic Drama of a Feminist And a Mad Scientist who must Battle a Teacher in The Canadian Rockies                    | 2006        | Documentary  | Penelope       | Guiness       | 1       |
-      | 9       | Alabama Devil    | A Thoughtful Panorama of a Database Administrator And a Mad Scientist who must Outgun a Mad Scientist in A Jet Boat | 2006        | Horror       | Christian      | Gable         | 10      |
-      | 15      | Alien Center     | A Brilliant Drama of a Cat And a Mad Scientist who must Battle a Feminist in A MySQL Convention                     | 2006        | Foreign      | Burt           | Dukakis       | 36      |
+      | film_id | film_title           | description                                                                                          | release_year | category | actor_list                                                  |
+      | 2       | Ace Goldfinger       | A Astounding Epistle of a Database Administrator And a Explorer who must Find a Car in Ancient China | 2006         | Horror   | Minnie Zellweger,Chris Depp,Bob Fawcett,Sean Guiness        |
+      | 22      | Amistad Midsummer    | A Emotional Character Study of a Dentist And a Crocodile who must Meet a Sumo Wrestler in California | 2006         | New      | Cary Mcconaughey,Daryl Wahlberg,Scarlett Bening,Salma Nolte |
+      | 41      | Arsenic Independence | A Fanciful Documentary of a Mad Cow And a Womanizer who must Find a Dentist in Berlin                | 2006         | Travel   | Rita Reynolds,Cuba Allen,Oprah Kilmer                       |
